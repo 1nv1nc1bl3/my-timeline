@@ -27,6 +27,9 @@
 /* Form */
 .mtForm {
     display: flex;
+
+    flex-direction: column;
+
     justify-content: space-between;
     align-items: center;
     grid-gap: 10px;
@@ -34,18 +37,21 @@
     padding: 35px;
 }
 .mtForm .mtfield {
-    height: 120px !important;
-    flex: 1;
+    height: 70px !important;
     text-align: center;
     font-size: 20px;
     border-radius: 0 !important;
     border: 1px solid #3f3f3f;
     box-sizing: border-box;
     padding: 10px;
+    width: 100%;
+    /* flex: 1 1; */
+    /* height: 120px !important; */
 }
 .mtForm .mtfield#mtFact {
     resize: none;
     text-align: left;
+    height: 200px !important;
 }
 .mtForm .mtfield.mtButton {
     background: #080808;
